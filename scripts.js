@@ -1,6 +1,6 @@
-var SamsungGalaxyS6 = new Phone('Samsung', 1800, 'black');
+var samsungGalaxyS6 = new Phone('Samsung', 1800, 'black');
 var iPhone6 = new Phone('Apple', 2500, 'white');
-var Nokia8 = new Phone('Nokia', 2300, 'silver and white');
+var nokia8 = new Phone('Nokia', 2300, 'silver and white');
 
 function Phone(brand, price, color) {
 	this.brand = brand;
@@ -12,6 +12,6 @@ Phone.prototype.printInfo = function() {
 	console.log('The phone brand is ' + this.brand + ', color is ' + this.color + ', and the price is ' + this.price + ' zł.');
 }
 
-SamsungGalaxyS6.printInfo();
+samsungGalaxyS6.printInfo();
 iPhone6.printInfo();
-Nokia8.printInfo();
+nokia8.printInfo();
